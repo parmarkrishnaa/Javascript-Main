@@ -14,7 +14,7 @@ console.log(a, `^`, b, `=`, a ** b);
 
 // Comparison Operators(==, !=, <, <=, >, >=, ===, !==)
 
-let d = 20, e = '20';
+let d = 20, e = "20";
 
 console.log(`\nComparison Operators:`)
 console.log(d == e);
