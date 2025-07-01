@@ -97,7 +97,6 @@ Result: You are eligible to vote.
 ---
 
 ## 🛠 Technologies Used
-- C/C++ or Python (based on syntax appearance)
 - Console I/O
 - Conditional statements
 - Arithmetic operations
