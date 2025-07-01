@@ -94,6 +94,7 @@ Access granted to user dashboard.
 
 ---
 
+<<<<<<< HEAD
 ### 🗳️ 7. Voter Eligibility Checker
 Determines if a user is eligible to vote based on their age.
 
@@ -108,6 +109,11 @@ You are eligible to vote.
 ## 🛠️ Technologies Used
 - Console input/output
 - If-else conditionals
+=======
+## 🛠 Technologies Used
+- Console I/O
+- Conditional statements
+>>>>>>> 44134b973f007b9b62fbb7fe574f1f760e2420c8
 - Arithmetic operations
 - Formatted printing
 - Basic role and identity validation
