@@ -1,109 +1,122 @@
-# Console Application - Readme
+# Console Application - README
 
-This project is a basic console application that performs multiple operations based on user input and predefined values. The program demonstrates core programming concepts such as conditionals, calculations, and formatted output.
-
----
-
-## 📦 Features
-
-### 1. **Product Billing**
-Displays product information and calculates the total price, applies discounts, and computes the net payable amount.
-
-<img src="." alt="">
+This project is a simple console-based application demonstrating basic programming concepts such as conditional logic, arithmetic operations, formatted output, and user role handling. Each module showcases a different use case.
 
 ---
 
-### 2. **Employee Information**
-Prints detailed information about an employee.
+## ✅ Features Overview
 
-**Example:**
+### 🧾 1. Product Billing System
+Calculates the total price for multiple quantities of a product and applies a discount.
+
+**Sample Output:**
 ```
-Employee Name: John Doe  
-Employee ID: 111  
-Company: Red & White Institute  
-Designation: Faculty of Developer & Designer  
-Salary: 65000  
+Product Name: Laptop
+Product Price: 75000
+Product Quantity: 5
+Total: 375000
+Discount: 75000
+Net Total: 300000
 ```
 
 ---
 
-### 3. **Student Marksheet**
-Displays marks, calculates percentage and assigns a grade.
+### 👨‍💼 2. Employee Information Display
+Displays employee details like name, ID, company, designation, and salary.
 
-**Example (Pass):**
+**Sample Output:**
 ```
-Student Name: John Doe  
-Roll No: 1  
-Total Marks: 253  
-Percentage: 84.33%  
-Grade: 'A'  
-```
-
-**Example (Fail):**
-```
-Student Name: John Doe  
-Roll No: 1  
-Total Marks: 172  
-Result: Failed in one or more subjects  
+Employee Name: John Doe
+Employee Id: 111
+Company Name: Red & White Institute
+Employee Designation: Faculty of Developer & Designer
+Employee Salary: 65000
 ```
 
 ---
 
-### 4. **Simple Interest Calculator**
-Calculates simple interest based on the given amount, rate, and time.
+### 🎓 3. Student Marksheet Generator
+Generates a marksheet and assigns a grade based on percentage.
 
-**Example:**
+**Pass Output:**
 ```
-Amount: 2000  
-Rate: 6%  
-Time: 10 years  
-Simple Interest: 1200  
-Total Amount: 3200  
+Student Name: John Doe
+Student Roll No: 1
+Total Marks: 253
+Percentage: 84.33%
+Your Grade is 'A'.
 ```
 
----
-
-### 5. **Number Comparison**
-Compares two numbers and prints the result.
-
-**Example:**
+**Fail Output:**
 ```
-num1: 10, num2: 20  
-Result: num1 is less than num2  
+Student Marksheet:
+Total Marks: 172
+Name: John Doe and Roll No: 1
+Has failed in one or more subjects.
 ```
 
 ---
 
-### 6. **Role-Based Access**
-Checks user role input and grants access accordingly.
+### 💰 4. Simple Interest Calculator
+Performs a basic interest calculation.
 
-**Example:**
+**Sample Output:**
 ```
-Input: User  
-Output: Access granted to user dashboard.  
-```
-
----
-
-### 7. **Voting Eligibility**
-Determines if the user is eligible to vote based on age.
-
-**Example:**
-```
-Age: 30  
-Result: You are eligible to vote.  
+Amount: 2000
+Rate: 6
+Time: 10
+Simple Interest: 1200
+Total Amount after Interest: 3200
 ```
 
 ---
 
-## 🛠 Technologies Used
-- C/C++ or Python (based on syntax appearance)
-- Console I/O
-- Conditional statements
+### 🔢 5. Number Comparison
+Compares two numbers and prints their relationship.
+
+**Sample Output:**
+```
+num1: 10 and num2: 20
+Comparing num1 and num2...
+num1 is less than num2
+```
+
+---
+
+### 🔐 6. Role-Based Access Control
+Grants access based on the user's role (Admin/User).
+
+**Sample Output:**
+```
+Enter your role (Admin/User): User
+Access granted to user dashboard.
+```
+
+---
+
+### 🗳️ 7. Voter Eligibility Checker
+Determines if a user is eligible to vote based on their age.
+
+**Sample Output:**
+```
+Your age is 30.
+You are eligible to vote.
+```
+
+---
+
+## 🛠️ Technologies Used
+- Console input/output
+- If-else conditionals
 - Arithmetic operations
+- Formatted printing
+- Basic role and identity validation
 
 ---
 
-## 📁 How to Run
-1. Compile and run the application in any C/C++ or Python-compatible IDE or terminal.
-2. Input values as required or run to see predefined outputs.
+## ▶️ How to Run
+1. Open the code in a terminal-compatible editor or IDE.
+2. Compile and run the code (C/C++ or Python depending on the source).
+3. Follow on-screen prompts or review outputs for different modules.
+
+---
