@@ -37,7 +37,7 @@ conditional-statements-js/
 ## 🟢 Beginner Level (1–10)
 
 ### 1. ✅ Positive, Negative, or Zero
-Check whether a number is positive, negative, or zero.
+Check whether a number is positive, negative, or zero.<br>
 <img src="./ouputs/img-1.png" alt="">
 
 ### 2. 🎓 Grade Classification
