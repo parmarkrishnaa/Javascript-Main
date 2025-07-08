@@ -8,4 +8,4 @@ while (sum <= 50){
     n++;
 }
 
-console.log(`Sum of numbers from 1 to ${n} until sum > 50 is `, sum, `.`);
+console.log(`Sum of numbers from 1 to ${n} until sum is greater than 50 is `, sum, `.`);
