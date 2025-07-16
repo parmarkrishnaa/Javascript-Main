@@ -1,0 +1,56 @@
+<script>
+    let str = "";
+    let choice;
+
+    do {
+        choice = prompt(
+            "Menu:\n" +
+            "1. Enter a new string.\n" +
+            "2. View current string.\n" +
+            "3. Convert to uppercase.\n" +
+            "4. Convert to lowecase.\n" +
+            "5. Search a word.\n" +
+            "6. Replace a word\n" +
+            "7. Exit.\n" +
+
+            "Enter your choice: "
+        );
+
+        switch (choice) {
+            case "1":
+                str = prompt("Enter a new string: ");
+                alert("String saved!");
+                break;
+            case "2":
+                alert("Current string: " + str);
+                break;
+            case "3":
+                alert("Uppercase string: " + str.toUpperCase());
+                break;
+            case "4":
+                alert("Lowercase string: " + str.toLowerCase());
+                break;
+            case "5":
+                let word = prompt("Enter a word to search: ");
+
+                if (str.includes(word)) {
+                    alert(`${word} is found in string.`);
+                } else {
+                    alert(`${word} is not found in string.`);
+                }
+                break;
+            case "6":
+                let oldWord = prompt("Enter word to replace: ");
+                let newWord = prompt("Enter new word: ");
+                let replaced = str.replaceAll(oldWord, newWord);
+                alert("Updated string: " + replaced);
+                str = replaced;
+                break;
+            case "7":
+                alert("Exiting program.");
+                break;
+            default:
+                alert("Invalid Choice!!!");
+        }
+    } while (choice !== 7);
+</script>
