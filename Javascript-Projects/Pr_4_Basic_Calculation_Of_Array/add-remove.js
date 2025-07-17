@@ -1,23 +1,23 @@
 let items = ["Ved","Chitt","Shivam","Jarir"];
 
-console.table(items)
+console.log(items)
 
 items.push("Nurul");
 
-console.table(items)
+console.log(items)
 
 items.unshift("Pratham")
 
-console.table(items)
+console.log(items)
 
 items.splice(0,3,"Krishna")
 
-console.table(items)
+console.log(items)
 
 items.pop();
 
-console.table(items)
+console.log(items)
 
 items.shift("krishna")
 
-console.table(items)
+console.log(items)

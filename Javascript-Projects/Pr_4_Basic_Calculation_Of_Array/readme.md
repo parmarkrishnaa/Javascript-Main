@@ -14,14 +14,12 @@ This README provides explanations and examples for various JavaScript array meth
 ### ✅ Array Initialization
 ```js
 let items = ["Ved", "Chitt", "Shivam", "Jarir"];
-![alt text](image-26.png)
 ```
 
 ### ✅ `push()`
 Adds an item to the **end**.
 ```js
 items.push("Nurul");
-![alt text](image.png)
 ```
 
 ### ✅ `unshift()`
