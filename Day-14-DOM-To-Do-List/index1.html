@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quotes</title>
+</head>
+<body>
+  <div class="quote-box">
+    <div id="quote">Loading Quote...</div>
+    <div id="author">-</div> <!-- ✅ Fixed here -->
+  </div>
+
+  <script>
+    const quotes = [
+      { text: "The best way to get started is to quit talking and begin doing.", author: "Walt Disney" },
+      { text: "Success is not in what you have, but who you are.", author: "Bo Bennett" },
+      { text: "Your time is limited, so don't waste it living someone else's life.", author: "Steve Jobs" },
+      { text: "Whether you think you can or think you can’t, you’re right.", author: "Henry Ford" },
+      { text: "The only limit to our realization of tomorrow is our doubts of today.", author: "Franklin D. Roosevelt" }
+    ];
+
+    let index = 0;
+
+    function changeQuote() {
+      const quoteObj = quotes[index];
+
+      document.getElementById("quote").textContent = `"${quoteObj.text}"`;
+      document.getElementById("author").textContent = `- ${quoteObj.author}`;
+
+      index++;
+      if (index >= quotes.length) index = 0;
+    }
+
+    changeQuote();
+    setInterval(changeQuote, 5000);
+  </script>
+</body>
+</html>

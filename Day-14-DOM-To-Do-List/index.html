@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+</head>
+
+<body>
+    <div>
+        <input type="text" id="workInput" placeholder="Enter your work...">
+        <button onclick="geeks()">Submit</button>
+    </div>
+
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Sr. No.</th>
+                    <th>Work</th>
+                    <th>Date & Time</th>
+                </tr>
+            </thead>
+            <tbody id="gfg"></tbody>
+        </table>
+    </div>
+
+    <script>
+        function geeks(){
+            const work = document.getElementById("workInput").value;
+
+            if(work === "") return;
+
+            const tbody = document.getElementById("gfg");
+            
+            const tr = document.createElement("tr");
+            const td1 = document.createElement("td");
+            const td2 = document.createElement("td");
+            const td3 = document.createElement("td");
+            const now = new Date();
+
+            td1.textContent = tbody.rows.length + 1;
+            td2.textContent = work;
+            td3.textContent = now.toLocaleString();
+
+            tr.appendChild(td1);
+            tr.appendChild(td2);
+            tr.appendChild(td3);
+            tbody.appendChild(tr);
+
+            document.getElementById("workInput").value = "";
+        }
+    </script>
+</body>
+
+</html>
