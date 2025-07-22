@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h2>Please Login</h2>
+        <button onclick="change()">Login</button>
+    </div>
+
+    <script>
+        let isLogin = false;
+        function change() {
+            let changeName = document.querySelector('h2');
+            if (!isLogin) {
+                changeName.innerText = "Welcome User";
+                console.log('Welcome User');
+                isLogin = true;
+            } else {
+                changeName.innerText = "Please Login";
+                console.log('Please Login');
+                isLogin = false;
+            }
+        }
+    </script>
+</body>
+
+</html>

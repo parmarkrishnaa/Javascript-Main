@@ -1,0 +1,3 @@
+DOM stands for Document Object Model. It represents the structure of web page. Javascript can help to understand and manipulate. DOM structure is like a tree of
+objects. It contains <html> (root element), <head> and <body> (container element). Under the <body>, <div> and <ul> are also container element. <h1>, <p> and <li> are
+child element.
