@@ -45,7 +45,6 @@
 
             editBtn.addEventListener('click', () => {
                 if (!isEditing) {
-                    // Edit mode: replace text with input
                     const currentText = taskCell.textContent;
                     const input = document.createElement('input');
                     input.type = 'text';
@@ -55,7 +54,6 @@
                     editBtn.textContent = 'Save';
                     isEditing = true;
                 } else {
-                    // Save mode: update text
                     const input = taskCell.querySelector('input');
                     const newText = input.value.trim();
                     if (newText === '') {
