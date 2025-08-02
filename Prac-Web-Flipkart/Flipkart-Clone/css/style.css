@@ -38,6 +38,53 @@ form i{
     font-size: 20px;
 }
 
+.arrow i{
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+a.login{
+    color: black;
+    transition: all 0.3s ease;
+    padding: 10px 6px;
+    border-radius: 5px;
+}
+
+a.login:hover{
+    background-color: blue;
+    color: white;
+}
+
+a.login:hover .arrow i{
+    transform: rotate(180deg);
+}
+
+.nav-dropdown{
+    /* display: none; */
+    width: 270px;
+    z-index: 1000;
+}
+
+.dropdown-wrapper:hover .nav-dropdown{
+    display: block;
+}
+
+.nav-dropdown li:hover{
+    background-color: #f8f9fa;
+}
+
+.dots i{
+    display: inline-block;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+a.dots:hover i{
+    background-color: rgba(128, 128, 128, 0.103);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 /* header section end */
 
 /* accessories section start */
