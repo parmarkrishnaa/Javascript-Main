@@ -60,7 +60,7 @@ a.login:hover .arrow i{
 }
 
 .nav-dropdown{
-    /* display: none; */
+    display: none;
     width: 270px;
     z-index: 1000;
 }
