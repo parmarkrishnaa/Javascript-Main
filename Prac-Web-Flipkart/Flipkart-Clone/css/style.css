@@ -176,3 +176,53 @@ a.dots:hover i{
 }
 
 /* special section end */
+
+/* footer section start */
+
+footer .about h6, footer .group h6, footer .help h6, footer .policy h6{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+footer .about ul li a, footer .group ul li a, footer .help ul li a, footer .policy ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+footer .about ul li a:hover, footer .group ul li a:hover, footer .help ul li a:hover, footer .policy ul li a:hover{
+    text-decoration: underline;
+}
+
+footer .foot2 h6{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+footer .foot2 .mail p{
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+footer .foot3 a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    /* margin-right: 15px; */
+}
+
+footer .foot3 a i{
+    color: gold;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    /* margin-right: 15px; */
+}
+
+/* footer section end */
