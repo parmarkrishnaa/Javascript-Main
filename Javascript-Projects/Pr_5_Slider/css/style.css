@@ -20,6 +20,20 @@ body{
     display: none;
 }
 
+.slider-img .img-content button{
+    border: 2px solid #54D12E;
+    color: white;
+    font-weight: 500;
+    transition: all 0.7s ease;
+}
+
+.slider-img .img-content button:hover{
+    border: 2px solid #ffffff;
+    background-color: #54D12E;
+    color: #000000;
+    font-weight: 500;
+}
+
 .height{
     height: 90vh;
     object-fit: cover;
@@ -32,10 +46,18 @@ body{
     border: none;
     background-color: #ffffff8e;
     border-radius: 5px;
-    padding: 20px 10px;
+    padding: 30px 10px;
 }
 
 .slider .next{
     right: 0;
 }
 
+footer .icons i{
+    margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+footer .icons i:hover{
+    color: #0d6efd;
+}

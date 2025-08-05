@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Slider</title>
+    <title>Eco Life</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -19,42 +19,72 @@
         <div class="container-fluid">
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link fw-medium" href="index.html">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-medium" href="index.html">ABOUT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-medium" href="index.html">SERVICES</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-medium" href="index.html">CONTACT</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fw-medium" href="index.html">ABOUT</a>
-                        </li>
-                    </ul>
+                    <a class="navbar-brand fw-medium ms-3" href="index.html">Eco Life</a>
+                    <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navbarNav" class="collapse navbar-collapse">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="index.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="index.html">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="index.html">CONTACT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-medium" href="index.html">ABOUT</a>
+                            </li>
+                        </ul>
+                        <button class="btn btn-primary me-3">Register</button>
+                    </div>
                 </nav>
             </div>
         </div>
     </header>
 
     <section>
-        <div class="slide">
+        <div class="slide mt-2">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="slider">
                             <div class="slider-img active">
-                                <img src="./images/1.jpg" class="img-fluid rounded w-100 height" alt="">
+                                <img src="./images/1.jpg" class="img-fluid rounded position-relative w-100 height"
+                                    alt="">
+                                <div
+                                    class="img-content text-center text-white position-absolute top-50 start-50 translate-middle">
+                                    <h2>Embrace the Beauty of Nature</h2>
+                                    <p>Discover the wonders of the natural world and learn how to protect our planet for
+                                        future generations.</p>
+                                    <button class="btn">Explore Now</button>
+                                </div>
                             </div>
                             <div class="slider-img">
-                                <img src="./images/2.jpg" class="img-fluid rounded w-100 height" alt="">
+                                <img src="./images/3.jpg" class="img-fluid rounded position-relative w-100 height"
+                                    alt="">
+                                <div
+                                    class="img-content text-center text-white position-absolute top-50 start-50 translate-middle">
+                                    <h2>Modern life, ancient peace.</h2>
+                                    <p>Uncover the magic of our planet and help preserve it for those to come.</p>
+                                    <button class="btn">Explore Now</button>
+                                </div>
                             </div>
                             <div class="slider-img">
-                                <img src="./images/3.jpg" class="img-fluid rounded w-100 height" alt="">
+                                <img src="./images/2.jpg" class="img-fluid rounded position-relative w-100 height"
+                                    alt="">
+                                <div
+                                    class="img-content text-center text-white position-absolute top-50 start-50 translate-middle">
+                                    <h2>The city grows, but nature still breathes.</h2>
+                                    <p>Experience the richness of nature — and protect it for the generations ahead.</p>
+                                    <button class="btn">Explore Now</button>
+                                </div>
                             </div>
                             <button class="prev" id="prev">
                                 <span class="visually-hidden">Prev</span>
@@ -70,6 +100,55 @@
             </div>
         </div>
     </section>
+
+    <section>
+        <div class="mission py-3">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="title">
+                            <h2>Our Mission</h2>
+                            <p style="font-size: 18px;">We are dedicated to promoting environmental awareness and
+                                sustainable living. Our goal is to inspire individuals to connect with nature and take
+                                action to preserve its beauty and biodiversity.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cart1 ms-5">
+                            <img src="./images/4.jpg" class="img-fluid" alt="">
+                            <p class="text-black fw-medium m-0 mt-3">Protecting Wildlife</p>
+                            <span>Learn about the importance of wildlife conservation and how you can help protect
+                                endangered species and their habitats.</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cart1">
+                            <img src="./images/5.jpg" class="img-fluid" alt="">
+                            <p class="text-black fw-medium m-0 mt-3">Sustainable Living</p>
+                            <span>Discover practical tips and resources for adopting a more sustainable lifestyle, from reducing your carbon footprint to conserving resources.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light mt-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-evenly text-muted pt-3">
+                        <p>© 2023 Eco Life. All rights reserved.</p>
+                        <div class="icons">
+                            <i class="bi bi-twitter"></i>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
