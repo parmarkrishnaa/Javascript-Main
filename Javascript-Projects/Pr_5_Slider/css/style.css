@@ -53,6 +53,10 @@ body{
     right: 0;
 }
 
+footer{
+    background-color: #f8f9fa;
+}
+
 footer .icons i{
     margin-left: 10px;
     transition: all 0.3s ease;
