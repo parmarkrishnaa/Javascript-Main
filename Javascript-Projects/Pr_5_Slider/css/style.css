@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0617272d;
+}
+
+.slider{
+    position: relative;
+}
+
+.active{
+    display: block !important;
+}
+
+.slider-img{
+    display: none;
+}
+
+.height{
+    height: 90vh;
+    object-fit: cover;
+}
+
+.slider .prev, .slider .next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background-color: #ffffff8e;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.slider .next{
+    right: 0;
+}
+
