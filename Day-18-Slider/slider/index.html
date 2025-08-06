@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section>
+        <div class="slide mt-2">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="slider">
+                            <div class="slider-img active">
+                                <img src="beautiful-strawberry-garden-sunrise-doi-ang-khang-chiang-mai-thailand.jpg"
+                                    class="img-fluid height" alt="">
+                                <div
+                                    class="img-content text-center text-white position-absolute top-50 start-50 translate-middle">
+                                    <h2>Embrace the Beauty of Nature</h2>
+                                    <p>Discover the wonders of the natural world and learn how to protect our planet for
+                                        future generations.</p>
+                                    <button class="btn">Explore Now</button>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="morskie-oko-tatry.jpg" class="img-fluid height" alt="">
+                                <div
+                                    class="img-content text-center text-white position-absolute top-50 start-50 translate-middle">
+                                    <h2>Modern life, ancient peace.</h2>
+                                    <p>Uncover the magic of our planet and help preserve it for those to come.</p>
+                                    <button class="btn">Explore Now</button>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="wet-vietnam-mountain-flow-stream-rural.jpg" class="img-fluid height" alt="">
+                                <div
+                                    class="img-content text-center text-white position-absolute top-50 start-50 translate-middle">
+                                    <h2>The city grows, but nature still breathes.</h2>
+                                    <p>Experience the richness of nature — and protect it for the generations ahead.</p>
+                                    <button class="btn">Explore Now</button>
+                                </div>
+                            </div>
+                            <button class="prev" onclick="prevSlide()" id="prev">
+                                <span class="visually-hidden">Prev</span>
+                                <i class="bi bi-chevron-left"></i>
+                            </button>
+                            <button class="next" onclick="nextSlide()" id="next">
+                                <span class="visually-hidden">Next</span>
+                                <i class="bi bi-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
