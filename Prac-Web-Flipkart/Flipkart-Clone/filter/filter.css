@@ -109,6 +109,26 @@ a.dots:hover i {
 
 /* accessories section end */
 
+/* aside section start */
+
+aside .btns button{
+    transition: all 0.7s ease;
+}
+
+aside .btns button:hover{
+    text-decoration: line-through;
+}
+
+aside .price .range-input input::placeholder{
+    font-size: 14px;
+}
+
+aside .brand .accordion-body .form-check input::placeholder{
+    font-size: 14px;
+}
+
+/* aside section end */
+
 /* footer section start */
 
 footer .about h6,
