@@ -37,12 +37,8 @@ async function searchWeather(query) {
 }
 
 function renderWeather() {
-    const query = cityInput.value.trim();
+    const query = cityInput.value;
     if (query) {
         searchWeather(query);
-    } else {
-        fetchWeather("London");
-    }
+    } 
 }
-
-fetchWeather();
