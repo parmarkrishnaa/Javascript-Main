@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9d9dff;
+}
+
+.navbar .profile img{
+    width: 32%;
+}
+
+.navbar .profile img.bell{
+    width: 25px;
+    height: 25px;
+    margin-top: 8px;
+}
+
+.sideBar {
+    width: 220px;
+    height: 89.7vh;
+    overflow: hidden;
+}
+
+.sideBar img {
+    width: 28px;
+}
+
+.sideBar .menu ul li a{
+    transition: all 0.5s ease;
+}
+
+.sideBar .menu ul li a:hover{
+    background-color: #9d9dff;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.sideBar .menu ul li a.active{
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.nav-link.active {
+    background-color: #3838b9;  
+    color: #fff !important;    
+    border-radius: 8px;         
+    padding-left: 12px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #e6e6fa;
+}
