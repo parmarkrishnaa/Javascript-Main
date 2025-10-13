@@ -51,17 +51,42 @@ const quotes = [
   }
 ];
 
+let start = document.getElementById('start-app');
+let app = document.getElementById('app');
+
+app.style.display = 'none';
+
+start.addEventListener('click', () => {
+  start.style.display = 'none';
+  app.style.transition = '0.5s';
+  app.style.display = 'block';
+})
+
 let quoteContent = document.getElementsByClassName('blockquote')
+let quote = document.getElementById('quote');
 let content = document.getElementById('content');
-let author = document.querySelector('[title]');
+let author = document.getElementById('author');
 let quoteCount = -1;
+
 
 setInterval(() => {
   if(quoteCount === quotes.length){
     quoteCount = 0;
   }else{
-    quoteContent[0].innerText = quotes[++quoteCount].quote;
+    quoteCount++;
+    quote.innerText = quotes[quoteCount].quote;
     content.innerText = quotes[quoteCount].content;
-    author.innerText = quotes[quoteCount].author;
+    author.innerText = `- ${quotes[quoteCount].author}`;
   }
+}, 3000);
+
+let timer = document.getElementById('timer');
+let count = 2;
+
+setInterval(() => {
+    count--;
+    if(count === -1){
+        count = 2;
+    }
+    timer.textContent = count;
 }, 1000);
