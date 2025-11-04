@@ -22,4 +22,10 @@ let displayData = () => {
     });
 };
 
+delete_data = (index) => {
+    products.splice(index, 1);
+    localStorage.setItem('products', JSON.stringify(products));
+    displayData();
+}
+
 displayData();
